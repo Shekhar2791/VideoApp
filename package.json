@@ -1,0 +1,20 @@
+{
+    "name": "simple-videochat-webrtc",
+    "version": "1.0.0",
+    "description": "Video chat between 2 people using simple-peer",
+    "main": "main.js",
+    "scripts": {
+        "start": "nodemon server.js",
+        "watch": "npx watchify ./public/main.js -o ./public/bundle.js"
+    },
+    "author": "Shekhar Kumar",
+    "dependencies": {
+        "express": "^4.17.1",
+        "http-server": "^0.12.3",
+        "simple-peer": "9.7.2",
+        "socket.io": "2.3.0"
+    },
+    "devDependencies": {
+        "watchify": "3.11.1"
+    }
+}
